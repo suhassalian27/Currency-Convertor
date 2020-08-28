@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import CONVERTOR from '.components/Convertor'
+import Convertor from "./components/Convertor/Convertor";
 
 function App() {
     return (
-        <div className="App">
-            <CONVERTOR />
-        </div>
+        <>
+            <Convertor />
+        </>
     );
 }
 
